@@ -2,13 +2,11 @@
 
 int main() {
 
-	int a,b,c;
-	a = 5 % 3;
-	a--;
-	b = (a++) +3;
+	int a = 2, b =3, c, d, e;
 
-	printf("%d, %d\n", a, b);
-	c = (++a) + 3;
-	printf("%d, %d, %d\n", a, b, c);
+	c = a > 3 && b > 2;
+	d = a > 3 || b > 2;
+	e = !c;
+	printf("%d, %d, %d\n", c, d, e);
 
 }
