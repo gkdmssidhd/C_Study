@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main() {
+/*int main() {
 
-	int a = 2, b =3, c, d, e;
+	int a = 10, b = 20, c, d;
+	c = a > b ? a : b;
+	d = a > b ? a - b : b - a;
+	printf("%d, %d\n", c, d);
 
-	c = a > 3 && b > 2;
-	d = a > 3 || b > 2;
-	e = !c;
-	printf("%d, %d, %d\n", c, d, e);
+}*/
 
-}
