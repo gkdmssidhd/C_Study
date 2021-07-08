@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+/*int main() {
 
 	int a = 2, b = 3, c = 4, d;
 
@@ -9,5 +9,5 @@ int main() {
 
 	printf("%d\n", d);
 
-}
+}*/
 
